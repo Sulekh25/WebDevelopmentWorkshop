@@ -1,0 +1,53 @@
+.box
+{
+    width: 460px;
+    box-shadow: 0 0 50px black;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Roboto;
+}
+
+.add input
+{
+    width: 80%;
+    height:20px;
+    border:2px solid black;
+    outline:2px solid black;
+    border-radius: 5px;
+}
+button
+{
+    border:none;
+    color:white;
+    padding:5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add button
+{
+    background-color: green;
+}
+.edit
+{
+    background-color: aqua;
+    margin-right: 10px;
+}
+.delete
+{
+    background-color: red;
+}
+
+.task
+{
+    border:2px solid blue;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.task input
+{
+    border:none;
+    font-size:16px;
+    width: 70%;
+}
